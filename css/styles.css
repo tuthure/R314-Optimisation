@@ -71,13 +71,7 @@ a:hover { opacity: 1; }
 /* L'état initial invisible */
 .card img {
     display: block; width: 100%; height: auto;
-    opacity: 0; 
-    transition: opacity .6s ease;
-    /* Optimisation pour éviter le repeint de la page lors de l'animation */
-    will-change: opacity; 
 }
-/* La classe ajoutée par le JS */
-.card img.loaded { opacity: 1; }
 
 /* Features */
 .features-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
